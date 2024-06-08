@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  }
+  
+ body {
+    font-family: "Manrope", sans-serif;
+   }
+  
+  .nav-bar {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+}
+
+.nav-bar-left {
+    flex: 1; 
+}
+ 
+
+.navbar-list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar-list li {
+    list-style: none;
+    
+}
+
+.navbar-list a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 600;
+    
+}
+
+.line {
+  height: 42px; 
+  align-self: center; 
+}
+
+.nav-bar-right {
+    display: flex;
+    gap: 30px;
+  
+}
+
+.assistance {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.assistance-number {
+    font-size: 22px;
+    font-weight: bold;
+   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+    
+}
+
+.header-right {
+    /* width: 50%; */
+    /* flex: 1; */
+}
+
+.header-left {
+    /* width: 50%; */
+
+}
+
+.header-text {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.header-button {
+    background-color: #FF6433;
+    border-radius: 10px;
+    padding: 20px;
+    border-style: none;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.header-button p {
+    color: white;
+}
+
+.open {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.open-days {
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.header-right {
+    position: relative;
+}
+
+.service {
+    position: absolute;
+    right: 250px;
+
+}
+
+.ratings {
+    position: absolute;
+    left: 180px;
+    bottom: -80px;
+    
+}
+
