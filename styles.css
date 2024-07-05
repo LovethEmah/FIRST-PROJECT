@@ -517,3 +517,17 @@ form input {
 
   }
 
+  .brands-section{
+    margin-top: 100px;
+  }
+
+  .brands-section h2{
+    text-align: center;
+    
+  }
+
+  .brand-grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
